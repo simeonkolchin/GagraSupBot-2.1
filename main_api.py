@@ -587,7 +587,7 @@ def callback_inline(call):
             keyboard = types.InlineKeyboardMarkup(row_width=1)
             keyboard.add(*buttons)
             bot.edit_message_text(chat_id=call.message.chat.id, message_id=call.message.message_id,
-                                  text=f' <b>Приветствую! Я GAGRASUPbot</b>'
+                                  text=f'<b>Приветствую! Я GAGRASUPbot</b>'
                                           f'и мне хочется предложить вам отличный способ активно и увлекательно провести свой досуг '
                                           f'- сапбординг. Это увлекательный вид активности, который понравится абсолютно любому - '
                                           f'от взрослых до детей, любителям экстрима и просто желающим приятно провести время на '
