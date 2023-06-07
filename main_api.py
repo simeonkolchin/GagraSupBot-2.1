@@ -115,7 +115,7 @@ def start(message):
             types.InlineKeyboardButton(text="Прайс", callback_data="ClbEvents"),
             types.InlineKeyboardButton(text="Помощь", callback_data="ClbHelp"),
             types.InlineKeyboardButton(text="Мои заявки", callback_data="ClbClaims"),
-            types.InlineKeyboardButton(text='Наш Instagram', url='https://www.instagram.com/gagra_sup/')
+            types.InlineKeyboardButton(text='Наш Instagram', url='https://www.instagram.com/gagrasup/')
         ]
         keyboard = types.InlineKeyboardMarkup(row_width=1)
         keyboard.add(*buttons)
@@ -156,7 +156,7 @@ def help(message):
     keyboard = types.InlineKeyboardMarkup(row_width=1)
     keyboard.add(types.InlineKeyboardButton(text='WhatsApp', url='https://wa.me/+79407322932'),
                  types.InlineKeyboardButton(text='Telegram', url='tg://resolve?domain=danyaagrba'),
-                 types.InlineKeyboardButton(text='Instagram', url='https://www.instagram.com/gagra_sup/'),
+                 types.InlineKeyboardButton(text='Instagram', url='https://www.instagram.com/gagrasup/'),
                  types.InlineKeyboardButton(text=f"Главное меню »", callback_data=f"ClbStart"))
     bot.send_message(chat_id=message.chat.id, text='Вы можете написать нам:', reply_markup=keyboard)
 
@@ -581,7 +581,7 @@ def callback_inline(call):
                 types.InlineKeyboardButton(text="Прайс", callback_data="ClbEvents"),
                 types.InlineKeyboardButton(text="Помощь", callback_data="ClbHelp"),
                 types.InlineKeyboardButton(text="Мои заявки", callback_data="ClbClaims"),
-                types.InlineKeyboardButton(text='Наш Instagram', url='https://www.instagram.com/gagra_sup/')
+                types.InlineKeyboardButton(text='Наш Instagram', url='https://www.instagram.com/gagrasup/')
             ]
             keyboard = types.InlineKeyboardMarkup(row_width=1)
             keyboard.add(*buttons)
@@ -989,7 +989,7 @@ def callback_inline(call):
         keyboard = types.InlineKeyboardMarkup(row_width=1)
         keyboard.add(types.InlineKeyboardButton(text='WhatsApp', url='https://wa.me/+79407322932'),
                      types.InlineKeyboardButton(text='Telegram', url='tg://resolve?domain=danyaagrba'),
-                     types.InlineKeyboardButton(text='Instagram', url='https://www.instagram.com/gagra_sup/'))
+                     types.InlineKeyboardButton(text='Instagram', url='https://www.instagram.com/gagrasup/'))
         if call.message.chat.id in admins:
             keyboard.add(types.InlineKeyboardButton(text='« Назад', callback_data="ClbBot-A"))
         else:
@@ -1070,7 +1070,7 @@ def callback_inline(call):
             types.InlineKeyboardButton(text="Прайс", callback_data="ClbEvents"),
             types.InlineKeyboardButton(text="Помощь", callback_data="ClbHelp"),
             types.InlineKeyboardButton(text="Мои заявки", callback_data="ClbClaims"),
-            types.InlineKeyboardButton(text='Наш Instagram', url='https://www.instagram.com/gagra_sup/'),
+            types.InlineKeyboardButton(text='Наш Instagram', url='https://www.instagram.com/gagrasup/'),
             types.InlineKeyboardButton(text='« Назад', callback_data="ClbStart"),
         ]
         keyboard = types.InlineKeyboardMarkup(row_width=1)
