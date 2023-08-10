@@ -14,11 +14,11 @@ from config import Token, admins
 # con = psycopg2.connect(DATABASE_URL, sslmode='require')
 
 con = psycopg2.connect(
-  database="railway",
-  user="postgres",
-  password="QtWLrg4wGHxhxOoLrz8P",
-  host="containers-us-west-51.railway.app",
-  port="5774"
+  database="gagrsa_sup",
+  user="gagrsa_sup_user",
+  password="u6LN6SCTSKCVDTdhxzlIuxfJFNBqA91t",
+  host="dpg-cja85jdm2m9c7389cb40-a",
+  port="5432"
 )
 
 cur = con.cursor()
