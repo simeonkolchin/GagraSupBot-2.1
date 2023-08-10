@@ -1,6 +1,6 @@
 from enum import Enum
 
-Token = '5332316874:AAE3PVTa8jOTMazPv0EuK2HssqvVDKzEYqI'
+Token = '5332316874:AAHrwMRAXll0KhMgf62I3auhQ3bNL-N5h2w'
 admins = [993699116, 490371324]
 
 db_file = "database.vdb"
