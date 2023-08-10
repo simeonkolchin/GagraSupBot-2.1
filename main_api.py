@@ -13,12 +13,11 @@ from config import Token, admins
 
 # con = psycopg2.connect(DATABASE_URL, sslmode='require')
 
-con = psycopg2.connect(
-  database="gagrsa_sup",
-  user="gagrsa_sup_user",
-  password="u6LN6SCTSKCVDTdhxzlIuxfJFNBqA91t",
-  host="dpg-cja85jdm2m9c7389cb40-a",
-  port="5432"
+conn = psycopg2.connect(
+    host="80.90.185.235",
+    database="default_db",
+    user="gen_user",
+    password="q_Tc1x\jEyy5?/"
 )
 
 cur = con.cursor()
